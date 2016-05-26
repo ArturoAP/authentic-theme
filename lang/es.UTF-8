@@ -118,7 +118,7 @@ settings_right_title=This page allows you to configure options for <a href="http
 settings_right_theme_left_configuration_title=Authentic Theme Configuration
 settings_right_theme_left_extensions_title=Authentic Theme Extensions Editor
 settings_right_theme_left_logo_title=Authentic Theme Logo Control
-settings_right_theme_configurable_options_title=Configurable options for Authentic Theme
+settings_right_theme_configurable_options_title=Opciones configurables para Authentic Theme
 
 
 settings_right_window_options_title=Opciones de ventana
@@ -188,13 +188,13 @@ settings_hotkey_reload=Hotkey for page reload
 
 settings_security_notify_on_pre_login_request=Notify when pre-login banner is displayed for unauthenticated user
 settings_security_notify_on_login_request=Notify when unauthenticated user has accessed login page
-settings_security_notify_on_login_success=Notify on successful user authentication
-settings_security_notify_for_webmin=Enabled for Webmin
-settings_security_notify_for_usermin=Enabled for Usermin
+settings_security_notify_on_login_success=Notificar autenticación de usuario exitosa
+settings_security_notify_for_webmin=Habilitado para Webmin
+settings_security_notify_for_usermin=Habilitado para Usermin
 
 settings_sysinfo_background_call_timeout=Timeout for background information update
 settings_sysinfo_background_call_timeout_description=Set desired timeout for updating notification slider in background calls. The value meant to be in minutes. Minimum recommended value is <code>1</code> minute. Default is set to <code>10</code> minutes. Decimal values can also be used.
-settings_sysinfo_easypie_charts=Show charts
+settings_sysinfo_easypie_charts=Mostrar gráficas
 settings_sysinfo_theme_updates=Check for Authentic Theme updates
 settings_sysinfo_csf_updates=Check for ConfigServer Security & Firewall updates
 settings_sysinfo_drive_status_on_new_line=Show CPU and drives status each on new line
@@ -202,7 +202,7 @@ settings_sysinfo_expand_all_accordions=Make all accordions expanded
 settings_sysinfo_link_mini=Show system information link as button
 settings_leftmenu_singlelink_icons=Show icons for single links on navigation menu
 
-settings_right_page_defaults_title=Default pages
+settings_right_page_defaults_title=Páginas predeterminadas
 settings_right_default_tab_webmin=Default tab after logging in to Webmin
 settings_right_default_tab_usermin=Default tab after logging in to Usermin
 settings_right_virtualmin_default=Default page for Virtualmin
@@ -212,7 +212,7 @@ settings_leftmenu_vm_installscripts=Show <kbd>Install Scripts</kbd> link in Virt
 settings_leftmenu_vm_webpages=Show <kbd>Edit Web Pages</kbd> link in Virtualmin
 settings_leftmenu_vm_backup_amazon=Show <kbd>Amazon S3 Buckets</kbd> link in Virtualmin
 
-settings_right_clear_local_cache=Clear cache
+settings_right_clear_local_cache=Borrar caché
 settings_right_notification_slider_options_title=Notification Slider options
 settings_notification_slider_fixed=Keep slider always visible
 settings_notification_color=Slider color
@@ -243,7 +243,7 @@ theme_version=Versión del Tema
 # Version 17.40
 theme_global_error=Error
 theme_global_warning=Advertencia
-theme_global_success=Exito
+theme_global_success=Éxito
 theme_global_info=Información
 sysinfo_system_status_warning=In order to have <strong>System Information</strong> displayed you will need to enable <em>System Status</em> module in user settings.
 settings_leftmenu_section_hide_vm_and_cm_links=Hide supported modules' links from navigation menu
@@ -265,12 +265,12 @@ theme_xhred_titles_cm=Cloudmin
 theme_xhred_titles_thirdlane=Thirdlane
 
 theme_xhred_global_please_wait=Please wait...
-theme_xhred_filemanager_copying_selected=Copying selected.
-theme_xhred_filemanager_cutting_selected=Cutting selected.
-theme_xhred_filemanager_pasting_selected=Pasting from clipboard.
+theme_xhred_filemanager_copying_selected=Copiando selección.
+theme_xhred_filemanager_cutting_selected=Cortando selección.
+theme_xhred_filemanager_pasting_selected=Pegando del portapapeles.
 theme_xhred_filemanager_unpacking_archive=Unpacking archive.
-theme_xhred_filemanager_deleting_selected=Deleting selected.
-theme_xhred_filemanager_renaming_selected=Renaming selected.
+theme_xhred_filemanager_deleting_selected=Borrando selección.
+theme_xhred_filemanager_renaming_selected=Renombrando selección.
 theme_xhred_filemanager_creating_folder=Creando folder
 theme_xhred_filemanager_creating_file=Creando archivo
 theme_xhred_filemanager_downloading_from=Descargando de
@@ -281,7 +281,7 @@ theme_xhred_filemanager_refreshing=Refreshing folder content.
 theme_xhred_filemanager_copying_successful=Copy to clipboard successful.
 theme_xhred_filemanager_cutting_successful=Cut to clipboard successful.
 theme_xhred_filemanager_pasting_successful=Paste from clipboard was successful.
-theme_xhred_filemanager_extracting_archive=Extracting archive.
+theme_xhred_filemanager_extracting_archive=Extrayendo archivo.
 theme_xhred_filemanager_bookmark_success=Folder <samp><em>%value</em></samp> was successfully added to your bookmarks.
 theme_xhred_filemanager_searching=Searching for <em>`%value`</em> string.
 theme_xhred_filemanager_search_founds=Found <samp>%value</samp> matches.
@@ -291,24 +291,24 @@ theme_xhred_filemanager_nothing_is_selected=Nothing is selected!
 theme_xhred_filemanager_saving_file=File `<samp><em>%value</em></samp>` is being saved.
 theme_xhred_filemanager_file_saved=File `<samp><em>%value</em></samp>` has been successfully saved.
 theme_xhred_filemanager_not_editable=Can not edit this type of selection.
-theme_xhred_filemanager_not_decompressable=Can not decompress this type of file.
+theme_xhred_filemanager_not_decompressable=No se puede comprimir este tipo de archivo.
 theme_xhred_filemanager_no_selection_to_copy=No folders/files selected to copy.
 theme_xhred_filemanager_no_selection_to_cut=No folders/files selected to cut.
 theme_xhred_filemanager_empty_clipboard=Portapapeles esta vacío.
 
-theme_xhred_filemanager_successful_extraction=Extraction was successful.
-theme_xhred_filemanager_successful_deletion=Deletion was successful.
+theme_xhred_filemanager_successful_extraction=Extracción exitosa.
+theme_xhred_filemanager_successful_deletion=Eliminación exitosa.
 theme_xhred_filemanager_successful_permissions=Permissions have been changed successfully.
 theme_xhred_filemanager_successful_ownership=Ownership has been changed successfully.
-theme_xhred_filemanager_successful_compression=Compression has successfully finished.
+theme_xhred_filemanager_successful_compression=Compresión ha finalizado exitosamente.
 theme_xhred_filemanager_successful_rename=Rename operation was successful.
 theme_xhred_filemanager_successful_folder_creation=Folder `<samp>%value</samp>` was created successfully.
 theme_xhred_filemanager_successful_file_creation=File `<samp>%value</samp>` was created successfully.
 
-theme_xhred_notifications_packages_updates=Packages Update
-theme_xhred_notifications_theme_update=Theme Update
-theme_xhred_notifications_theme_update_message=A new version <em>%v</em> of <strong>Authentic Theme</strong> is available. Please update.
-theme_xhred_notifications_firewall_update=Firewall Update
+theme_xhred_notifications_packages_updates=Paquetes de Actualización
+theme_xhred_notifications_theme_update=Actualizacion de Tema
+theme_xhred_notifications_theme_update_message=Una nueva versión <em>%v</em> de <strong>Authentic Theme</strong> esta disponible. Favor de actualizar.
+theme_xhred_notifications_firewall_update=Actualización de Cortafuegos
 theme_xhred_notifications_firewall_update_message=A new version <em>%v</em> of <strong>ConfigServer Server Security and Firewall</strong> is available. Please update.
 
 theme_xhred_notifications_firewall_danger=Peligro de cortafuegos
@@ -363,14 +363,14 @@ theme_xhred_filemanager_context_delete=Borrar
 theme_xhred_filemanager_context_rename=Renombrar
 theme_xhred_filemanager_context_edit=Editar
 theme_xhred_filemanager_context_extract=Extraer
-theme_xhred_filemanager_context_goto=Open Item Location
+theme_xhred_filemanager_context_goto=Abrir Locación del Objecto
 theme_xhred_filemanager_context_properties=Propiedades
 theme_xhred_filemanager_context_search=Buscar
 
 #17.52
-theme_xhred_filemanager_context_deselect_all=Deselect All
+theme_xhred_filemanager_context_deselect_all=Deseleccionar Todo
 theme_xhred_filemanager_context_upload=Upload to current folder
-theme_xhred_filemanager_context_download=Download from URL to current folder
+theme_xhred_filemanager_context_download=Descargar de URL al folder actual
 
 #17.53
 theme_settings_virtualmin=Servidores Virtuales Virtualmin
@@ -393,8 +393,8 @@ settings_switch_rdisplay_description=This option allows you to set different ord
 
 
 #17.63
-theme_xhred_filemanager_context_calculate_selected_size=Calculate selected size
-theme_xhred_filemanager_selected_entries=Selected: %value entries
+theme_xhred_filemanager_context_calculate_selected_size=Calcular tamaño seleccionado
+theme_xhred_filemanager_selected_entries=Seleccionar: %value entradas
 theme_xhred_filemanager_manual_path=Enter path manually
 
 theme_xhred_datatable_semptytable=No data available in table
@@ -403,11 +403,11 @@ theme_xhred_datatable_sinfoempty=Mostrando 0 a 0 de 0 entradas
 theme_xhred_datatable_slengthmenu=Show _MENU_ entries
 theme_xhred_datatable_sloadingrecords=Cargando...
 theme_xhred_datatable_sprocessing=Procesando...
-theme_xhred_datatable_szerorecords=No matching records found
+theme_xhred_datatable_szerorecords=No se encontraron registros coincidentes
 
 #17.64
-theme_xhred_filemanager_file_edit_but_not_saved=File has been edited but hasn't been saved.
-theme_xhred_filemanager_file_edit_but_not_saved_what_to_do=What do you want to do?
+theme_xhred_filemanager_file_edit_but_not_saved=El archivo ha sido editado pero no se ha guardado.
+theme_xhred_filemanager_file_edit_but_not_saved_what_to_do=¿Qué quieres hacer?
 theme_xhred_global_save=Guardar
 theme_xhred_global_save_and_close=Guardar y cerrar
 theme_xhred_global_close_without_saving=Cerrar sin guardar
@@ -423,7 +423,7 @@ settings_window_exclusion_description=Set the list of modules that will be exclu
 settings_window_exclusion_list=Modulos a excluir
 
 #17.80
-right_return_theme_options=theme options
+right_return_theme_options=opciones de tema
 theme_xhred_datatable_semptyfolder=Folder is empty
 theme_xhred_filemanager_context_clipboard=Copy path to clipboard
 theme_xhred_global_warning=Advertencia
