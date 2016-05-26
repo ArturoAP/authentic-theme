@@ -6,8 +6,8 @@ body_cputype=$5, $8 núcleos
 body_disk=Espacio en el disco local
 body_driveerr=$1 errores!
 body_drivefailed=Control SMART fallado!
-body_drivetemps=Temperaturas discos
-body_firewall=Versión Firewall
+body_drivetemps=Temperaturas de discos
+body_firewall=Versión de Firewall
 body_header0=Información del sistema
 body_header1=Información de la cuenta
 body_host=Nombre host del sistema
@@ -23,7 +23,7 @@ body_updays=$1 días, $2 horas, $3 minutos
 body_uphours=$1 horas, $2 minutos
 body_upmins=$1 minutos
 body_upneed=$1 actualizaciones de paquetes están disponibles
-body_upneed1=$1 package update is available
+body_upneed1=$1 actualización de paquete está disponible
 body_upok=Todos los paquetes instalados están actualizados
 body_upsec=$1 actualizaciones de paquetes están disponibles, de los cuales $2 son actualizaciones de seguridad
 body_upsec1=$1 package updates are available, of which $2 is security update
@@ -254,7 +254,7 @@ theme_sysinfo_cmdocs=Documentación de cloudmin
 theme_fileformat_css=CSS
 theme_fileformat_json=JSON
 theme_fileformat_js=Javascript
-theme_fileformat_plain_text=Plain Text
+theme_fileformat_plain_text=Texto Sin Formato
 
 theme_xhred_titles_wm=Webmin
 theme_xhred_titles_um=Usermin
@@ -264,36 +264,36 @@ theme_xhred_titles_vm=Virtualmin
 theme_xhred_titles_cm=Cloudmin
 theme_xhred_titles_thirdlane=Thirdlane
 
-theme_xhred_global_please_wait=Please wait...
+theme_xhred_global_please_wait=Por favor espere...
 theme_xhred_filemanager_copying_selected=Copiando selección.
 theme_xhred_filemanager_cutting_selected=Cortando selección.
 theme_xhred_filemanager_pasting_selected=Pegando del portapapeles.
-theme_xhred_filemanager_unpacking_archive=Unpacking archive.
+theme_xhred_filemanager_unpacking_archive=Desempacando archivo.
 theme_xhred_filemanager_deleting_selected=Borrando selección.
 theme_xhred_filemanager_renaming_selected=Renombrando selección.
-theme_xhred_filemanager_creating_folder=Creando folder
+theme_xhred_filemanager_creating_folder=Creando carpeta
 theme_xhred_filemanager_creating_file=Creando archivo
 theme_xhred_filemanager_downloading_from=Descargando de
 theme_xhred_filemanager_setting_permissions=Setting permissions to <samp><em>%value</em></samp> on selected file(s).
 theme_xhred_filemanager_changing_ownership=Changing ownership to <samp><em>%value</em></samp> on selected file(s).
-theme_xhred_filemanager_compressing_selected=Compressing selected.
-theme_xhred_filemanager_refreshing=Refreshing folder content.
+theme_xhred_filemanager_compressing_selected=Comprimiendo selección.
+theme_xhred_filemanager_refreshing=Refrescando contenido de la carpeta.
 theme_xhred_filemanager_copying_successful=Copy to clipboard successful.
 theme_xhred_filemanager_cutting_successful=Cut to clipboard successful.
 theme_xhred_filemanager_pasting_successful=Paste from clipboard was successful.
 theme_xhred_filemanager_extracting_archive=Extrayendo archivo.
-theme_xhred_filemanager_bookmark_success=Folder <samp><em>%value</em></samp> was successfully added to your bookmarks.
+theme_xhred_filemanager_bookmark_success=Carpeta <samp><em>%value</em></samp> fue añadida exitosamente a sus marcadores.
 theme_xhred_filemanager_searching=Searching for <em>`%value`</em> string.
 theme_xhred_filemanager_search_founds=Found <samp>%value</samp> matches.
 theme_xhred_filemanager_search_found=Found <samp>1</samp> match.
 theme_xhred_filemanager_search_no_matches=No matches found.
 theme_xhred_filemanager_nothing_is_selected=Nothing is selected!
-theme_xhred_filemanager_saving_file=File `<samp><em>%value</em></samp>` is being saved.
-theme_xhred_filemanager_file_saved=File `<samp><em>%value</em></samp>` has been successfully saved.
-theme_xhred_filemanager_not_editable=Can not edit this type of selection.
+theme_xhred_filemanager_saving_file=Archivo `<samp><em>%value</em></samp>` esta siendo guardado.
+theme_xhred_filemanager_file_saved=Archivo `<samp><em>%value</em></samp>` ha sido guardado exitosamente.
+theme_xhred_filemanager_not_editable=No se puede editar este tipo de selección.
 theme_xhred_filemanager_not_decompressable=No se puede comprimir este tipo de archivo.
-theme_xhred_filemanager_no_selection_to_copy=No folders/files selected to copy.
-theme_xhred_filemanager_no_selection_to_cut=No folders/files selected to cut.
+theme_xhred_filemanager_no_selection_to_copy=No hay Carpetas/Archivos seleccionados para copiar.
+theme_xhred_filemanager_no_selection_to_cut=No hay Carpetas/Archivos seleccionados para cortar.
 theme_xhred_filemanager_empty_clipboard=Portapapeles esta vacío.
 
 theme_xhred_filemanager_successful_extraction=Extracción exitosa.
@@ -347,9 +347,9 @@ settings_cm_editor_palette=Editor color palette
 
 theme_xhred_filemanager_context_select_all=Seleccionar Todo
 theme_xhred_filemanager_context_select_invert=Invertir Selección
-theme_xhred_filemanager_context_refresh=Refresh
+theme_xhred_filemanager_context_refresh=Refrescar
 theme_xhred_filemanager_context_newfile=Crear nuevo archivo
-theme_xhred_filemanager_context_newfoder=Crear nuevo folder
+theme_xhred_filemanager_context_newfoder=Crear nueva carpeta
 theme_xhred_filemanager_context_copy=Copiar
 theme_xhred_filemanager_context_cut=Cortar
 theme_xhred_filemanager_context_paste=Pegar
@@ -369,15 +369,15 @@ theme_xhred_filemanager_context_search=Buscar
 
 #17.52
 theme_xhred_filemanager_context_deselect_all=Deseleccionar Todo
-theme_xhred_filemanager_context_upload=Upload to current folder
+theme_xhred_filemanager_context_upload=Cargar a la carpeta actual
 theme_xhred_filemanager_context_download=Descargar de URL al folder actual
 
 #17.53
 theme_settings_virtualmin=Servidores Virtuales Virtualmin
 theme_settings_cloudmin=Cloudmin Managed Systems
-settings_right_thirdparties_options_title=Third-parties modules options
-theme_xhred_filemanager_context_calculate_size=Calculate folder's size
-theme_xhred_filemanager_context_bookmarks=Bookmarks
+settings_right_thirdparties_options_title=Opciones de modulos de terceros
+theme_xhred_filemanager_context_calculate_size=Calcular tamaño de la carpeta
+theme_xhred_filemanager_context_bookmarks=Marcadores
 theme_xhred_filemanager_context_bookmark_current=Bookmark currently opened path
 theme_xhred_filemanager_context_transfer=Transferir
 
@@ -389,7 +389,7 @@ right_unlimited=Ilimitado
 settings_leftmenu_width=Preferable width
 settings_leftmenu_width_description=Default/current width <code>260</code>/<code data-name="settings_leftmenu_width">0</code>
 settings_switch_rdisplay=Reverse switch output
-settings_switch_rdisplay_description=This option allows you to set different order for top-left switches. After changing this option, complete page reload is required to apply new settings.
+settings_switch_rdisplay_description=Esta opción le permite establecer orden diferente para los interruptores de la parte superior izquierda. Después de cambiar esta opción, se requiere recargar completamente la página para aplicar la nueva configuración.
 
 
 #17.63
@@ -400,7 +400,7 @@ theme_xhred_filemanager_manual_path=Enter path manually
 theme_xhred_datatable_semptytable=No data available in table
 theme_xhred_datatable_sinfo=Showing _START_ to _END_ of _TOTAL_ entries
 theme_xhred_datatable_sinfoempty=Mostrando 0 a 0 de 0 entradas
-theme_xhred_datatable_slengthmenu=Show _MENU_ entries
+theme_xhred_datatable_slengthmenu=Mostrar _MENU_ entradas
 theme_xhred_datatable_sloadingrecords=Cargando...
 theme_xhred_datatable_sprocessing=Procesando...
 theme_xhred_datatable_szerorecords=No se encontraron registros coincidentes
@@ -424,14 +424,14 @@ settings_window_exclusion_list=Modulos a excluir
 
 #17.80
 right_return_theme_options=opciones de tema
-theme_xhred_datatable_semptyfolder=Folder is empty
+theme_xhred_datatable_semptyfolder=La carpeta está vaciá
 theme_xhred_filemanager_context_clipboard=Copy path to clipboard
 theme_xhred_global_warning=Advertencia
 theme_xhred_global_close=Cerrar
 theme_xhred_encoding_warning=Detected that you are using <code>%charset</code> character set and not <code>utf-8</code>, which is strongly recommended. Strange <tt>Â</tt> character might appear in text-editor mode and/or other encoding issues are going to happen. <br><br>Change language in <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i> Webmin Configuration</strong></a> to <code>%lang.UTF-8</code> and make sure, that your browser also detected it correctly. <br><br>Pay attention, that <em>Webmin</em> in-built module, named <em>Change Language and Theme</em> can override global settings.
 
-theme_xhred_filemanager__no_bookmarks=No saved bookmarks
-theme_xhred_filemanager_unbookmark_success=Folder <samp><em>%value</em></samp> was successfully removed from your bookmarks.
+theme_xhred_filemanager__no_bookmarks=No hay marcadores guardados
+theme_xhred_filemanager_unbookmark_success=Carpeta <samp><em>%value</em></samp> fue removida exitosamente de sus marcadores.
 theme_xhred_filemanager_bookmark=Bookmark current folder
 theme_xhred_filemanager_unbookmark=Unbookmark current folder
 theme_xhred_filemanager_move_into_self=You cannot move a folder into itself! The destination folder is inside the source folder.
@@ -446,13 +446,13 @@ theme_xhred_filemanager_target_conflic_message_2=Pasted targets already exist! W
 theme_xhred_filemanager_target_conflic_replace=Merge and replace
 theme_xhred_filemanager_target_conflic_paste=Paste with new name
 
-theme_xhred_editor_help_title=Editor Keyboard Shortcuts
+theme_xhred_editor_help_title=Editar Atajos de Teclado
 theme_xhred_editor_help_content=<i class="hidden theme_xhred_editor_help"></i><h5><strong>Find/Replace</strong></h5> <table class="table table-condensed table-hover"> <colgroup> <col width="30%"> <col width="70%"> </colgroup> <thead valign="bottom"> <tr><th class="head">Keypress</th> <th class="head">Command</th> </tr> </thead> <tbody valign="top"> <tr><td>Ctrl + F</td> <td>Find</td> </tr> <tr><td>Ctrl + H</td> <td>Replace</td> </tr> <tr><td>Ctrl + ⇧ + R</td> <td>Replace all</td> </tr> <tr><td>Ctrl + G</td> <td>Find next</td> </tr> <tr><td>Ctrl + ⇧ +  G</td> <td>Find previous</td> </tr> <tr><td>Alt + G</td> <td>Jump to line</td> </tr> </tbody> </table> <h5><strong>Text manipulation</strong></h5> <table class="table table-condensed table-hover"> <colgroup> <col width="30%"> <col width="70%"> </colgroup> <thead valign="bottom"> <tr><th class="head">Keypress</th> <th class="head">Command</th> </tr> </thead> <tbody valign="top"> <tr><td>Ctrl + KU</td> <td>Transform to Uppercase</td> </tr> <tr><td>Ctrl + KL</td> <td>Transform to Lowercase</td> </tr> </tbody> </table> <h5><strong>Editing</strong></h5> <table class="table table-condensed table-hover"> <colgroup> <col width="30%"> <col width="70%"> </colgroup> <thead valign="bottom"> <tr><th class="head">Keypress</th> <th class="head">Command</th> </tr> </thead> <tbody valign="top"> <tr><td>Ctrl + Space</td> <td>Activate autocompletion</td> </tr> <tr><td>Ctrl + X</td> <td>Cut line</td> </tr> <tr><td>Ctrl + ⇧ + ↑</td> <td>Move line/selection up</td> </tr> <tr><td>Ctrl + ⇧ + ↓</td> <td>Move line/selection down</td> </tr> <tr><td>Ctrl + L</td> <td>Select line - Repeat to select next lines</td> </tr> <tr><td>Ctrl + D</td> <td>Select word - Repeat select others occurrences</td> </tr> <tr><td>Ctrl + M</td> <td>Jump to closing parentheses Repeat to jump to opening parentheses</td> </tr> <tr><td>Ctrl + ⇧ + M</td> <td>Select all contents of the current parentheses</td> </tr> <tr><td>Ctrl + ⇧ + K</td> <td>Delete Line</td> </tr> <tr><td>Ctrl + KK</td> <td>Delete from cursor to end of line</td> </tr> <tr><td>Ctrl + K + Backspace</td> <td>Delete from cursor to start of line</td> </tr> <tr><td>Ctrl + ⇧ + D</td> <td>Duplicate line(s)</td> </tr> <tr><td>Ctrl + J</td> <td>Join line below to the end of the current line</td> </tr> <tr><td>Ctrl + /</td> <td>Comment/un-comment current line</td> </tr> <tr><td>Ctrl + ⇧ + /</td> <td>Block comment current selection</td> </tr> <tr><td>Ctrl + Y</td> <td>Redo, or repeat last keyboard shortcut command</td> </tr> <tr><td>Ctrl + ⇧ + V</td> <td>Paste and indent correctly</td> </tr> <tr><td>Ctrl + Space</td> <td>Select next auto-complete suggestion</td> </tr> <tr><td>Ctrl + U</td> <td>soft undo; jumps to your last change before undoing change when repeated</td> </tr> </tbody> </table>
 
-theme_xhred_filemanager_hide_toolbar=Hide toolbar
-theme_xhred_filemanager_hide_actions=Hide actions column
+theme_xhred_filemanager_hide_toolbar=Ocultar barra de herramientas
+theme_xhred_filemanager_hide_actions=Ocultar columna de acciones
 theme_xhred_filemanager_hovered_toolbar=Activate dropdown in toolbar on mouse hover
-theme_xhred_filemanager_context_delete_selected=Delete selected
+theme_xhred_filemanager_context_delete_selected=Borrar selección
 
 #17.83
 theme_xhred_database_adding_new_row=Adding new row
@@ -489,7 +489,7 @@ theme_xhred_database_db_selected_drop=Drop selected database
 theme_xhred_database_dbs_selected_drop=Drop selected databases
 theme_xhred_database_edit_but_not_saved=Table data has been edited but not saved.
 
-theme_xhred_global_no_such_command=It appears that <tt>%cmd</tt> executable is not installed or not in the path on your system.
+theme_xhred_global_no_such_command=Al parecer el ejecutable <tt>%cmd</tt> no se encuentra instalado o no se encuentra en la ruta en su sistema.
 
 theme_xhred_global_notice=Notificación
 
