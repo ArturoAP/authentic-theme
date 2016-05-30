@@ -25,10 +25,10 @@ body_upmins=$1 minutos
 body_upneed=$1 actualizaciones de paquetes están disponibles
 body_upneed1=$1 actualización de paquete está disponible
 body_upok=Todos los paquetes instalados están actualizados
-body_upsec=$1 actualizaciones de paquetes están disponibles, de los cuales $2 son actualizaciones de seguridad
-body_upsec1=$1 package updates are available, of which $2 is security update
-body_upsec2=$1 package update is available, of which $2 are security updates
-body_upsec3=$1 package update is available, of which $2 is security update
+body_upsec=$1 paquetes de actualización están disponibles, de los cuales $2 son actualizaciones de seguridad
+body_upsec1=$1 paquetes de actualización estan disponibles, de las cuales $2 es actualización de seguridad
+body_upsec2=$1 paquete de actualización esta disponible, de los cuales $2 son actualizaciones de seguridad
+body_upsec3=$1 paquete de actualización esta disponible, del cual $2 es actualización de seguridad
 body_uptime=Uptime de Sistema
 body_used=$1 total / $2 usado
 body_used_and_free=$1 total / $2 libre / $3 usado
@@ -107,18 +107,18 @@ settings_right_theme_extensions_title=Extensiones del Tema
 settings_right_file_edit=Editar archivo de extensión:
 settings_right_extensions_title=Theme extensive design, enables you easily manipulate on targeted parts of the interface. It's possible to access both <em>CSS</em> and <em>JavaScript</em>, by writing custom <em>styles</em>/<em>scripts</em> extensions. Following are the plain examples, made to help you understand the basic idea of its application. For example, in order to change the color of the background, add the following style to CSS extension: <code>body {background-color: Gainsboro}</code>. Using JavaScript, to change submit button's width, add the following code to JavaScript extension: <code>$('button[type="submit"]').animate({width: "100%"}, 1000)</code>. However, in practice, it will be more complicated than that.
 
-settings_right_theme_logos=Theme logos
-settings_right_theme_logos_title=Theme Logos
-settings_right_logos_title=Theme logos can be easily set here, for both, authenticated and unauthenticated users. Recommended logo size is <kbd>180x90</kbd> pixels and the only supported format is <kbd>.png</kbd>, to provide alpha transparency. After logo is set up, in case you need to, you can manipulate it with extensible <a href="/settings-editor_read.cgi"><em>CSS</em></a> and <a href="/settings-editor_read.cgi?file=%path%/authentic-theme/scripts.js"><em>JavaScript</em></a>, accessing it by its class name, which is correspondingly <code>._logo</code> and <code>._logo_welcome</code> to <em>authenticated</em> and <em>unauthenticated</em> types.
-settings_right_logo_authenticated_users=Logo for authenticated users
-settings_right_logo_unauthenticated_users=Logo for unauthenticated users
+settings_right_theme_logos=Logotipos del tema
+settings_right_theme_logos_title=Logotipos del tema
+settings_right_logos_title=Los logotipos pueden ser ajustados fácilmente aquí, para ambos, usuarios autenticados y no autenticados. Tamaño recomendado del logotipo es <kbd>180x90</kbd> pixeles y el único formato soportado es <kbd>.png</kbd>, para proveer transparencia. Después de ajustar el logotipo, en caso de necesitarlo, puedes manipularlo con <a href="/settings-editor_read.cgi"><em>CSS</em></a> extensible y <a href="/settings-editor_read.cgi?file=%path%/authentic-theme/scripts.js"><em>JavaScript</em></a>, accediendo por su nombre de clase correspondiente, <code>._logo</code> y <code>._logo_welcome</code> para <em>autenticado</em> y <em>no autenticado</em> respectivamente.
+settings_right_logo_authenticated_users=Logotipo para usuarios autenticados
+settings_right_logo_unauthenticated_users=Logotipo para usuarios no autenticados
 
 settings_right_current_theme=Tema actual
 settings_right_title=This page allows you to configure options for <a href="https://github.com/qooob/authentic-theme" target="_blank">Authentic Theme</a>. Settings will be stored upon theme update.
-settings_right_theme_left_configuration_title=Authentic Theme Configuration
-settings_right_theme_left_extensions_title=Authentic Theme Extensions Editor
-settings_right_theme_left_logo_title=Authentic Theme Logo Control
-settings_right_theme_configurable_options_title=Opciones configurables para Authentic Theme
+settings_right_theme_left_configuration_title=Configuración del tema Authentic
+settings_right_theme_left_extensions_title=Editor de extensiones del tema Authentic
+settings_right_theme_left_logo_title=Control de logotipos del tema Authentic
+settings_right_theme_configurable_options_title=Opciones configurables para tema Authentic
 
 
 settings_right_window_options_title=Opciones de ventana
