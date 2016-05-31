@@ -161,30 +161,30 @@ settings_right_grayscaled_table_icons=Grayscale table icons and bring color on f
 settings_right_iconize_header_links=Replace table header's links with icons
 settings_right_iconize_header_links_description=Choose whether to replace old style table header's links with icons or keep old style text links
 
-settings_window_autoscroll=Automatic window scroll
+settings_window_autoscroll=Desplazamiento de ventana automático
 settings_window_autoscroll_description=Perform window automatic scroll down, upon page is populated from server-side. Spinner will be automatically hidden upon this feature is triggered. Intended mouse-scroll done by user, will make autoscroll stop; to restart it, make double mouse-scroll, being at the very bottom of the page.
 
 settings_window_customized_checkboxes_and_radios=Enable customized checkboxes and radio buttons
 
-settings_leftmenu_section_hide_refresh_modules=Hide <kbd>Refresh Modules</kbd> link
-settings_leftmenu_section_hide_unused_modules=Hide <kbd>Unused Modules</kbd> link
+settings_leftmenu_section_hide_refresh_modules=Ocultar vinculo de <kbd>Refrescar Modulos</kbd>
+settings_leftmenu_section_hide_unused_modules=Ocultar vinculo de <kbd>Modulos no Utilizados</kbd>
 settings_favorites=Mostrar botón de favoritos
 settings_leftmenu_button_language=Mostrar botón de lenguaje
-settings_leftmenu_button_refresh=Show refresh button
+settings_leftmenu_button_refresh=Mostrar botón refrescar
 
-settings_theme_options_button=Show theme settings button
+settings_theme_options_button=Mostrar botón de configuración del tema
 
-settings_hotkeys_active=Enable hotkeys usage
-settings_hotkey_toggle_modifier=Hotkeys modifier
-settings_hotkey_toggle_key_webmin=Hotkey for Webmin
-settings_hotkey_toggle_key_virtualmin=Hotkey for Virtualmin
-settings_hotkey_toggle_key_cloudmin=Hotkey for Cloudmin
-settings_hotkey_toggle_key_usermin=Hotkey for Usermin
-settings_hotkey_toggle_key_webmail=Hotkey for Mail
-settings_hotkey_sysinfo=Hotkey for System Information
-settings_hotkey_favorites=Hotkey for favorites
-settings_hotkey_focus_search=Hotkey for search field
-settings_hotkey_reload=Hotkey for page reload
+settings_hotkeys_active=Habilitar atajos de teclado
+settings_hotkey_toggle_modifier=Modificador de atajos de teclado
+settings_hotkey_toggle_key_webmin=Atajo de teclado para Webmin
+settings_hotkey_toggle_key_virtualmin=Atajo de teclado para Virtualmin
+settings_hotkey_toggle_key_cloudmin=Atajo de teclado para Cloudmin
+settings_hotkey_toggle_key_usermin=Atajo de teclado para Usermin
+settings_hotkey_toggle_key_webmail=Atajo de teclado para Correo
+settings_hotkey_sysinfo=Atajo de teclado para Información del Sistema
+settings_hotkey_favorites=Atajo de teclado para favoritos
+settings_hotkey_focus_search=Atajo de teclado para campos de búsqueda
+settings_hotkey_reload=Atajo de teclado para refrescar pagina
 
 settings_security_notify_on_pre_login_request=Notify when pre-login banner is displayed for unauthenticated user
 settings_security_notify_on_login_request=Notify when unauthenticated user has accessed login page
