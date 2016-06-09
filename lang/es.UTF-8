@@ -205,8 +205,8 @@ settings_leftmenu_singlelink_icons=Show icons for single links on navigation men
 settings_right_page_defaults_title=Páginas predeterminadas
 settings_right_default_tab_webmin=Default tab after logging in to Webmin
 settings_right_default_tab_usermin=Default tab after logging in to Usermin
-settings_right_virtualmin_default=Default page for Virtualmin
-settings_right_cloudmin_default=Default page for Cloudmin
+settings_right_virtualmin_default=Página predeterminada para Virtualmin
+settings_right_cloudmin_default=Página predeterminada para Cloudmin
 
 settings_leftmenu_vm_installscripts=Show <kbd>Install Scripts</kbd> link in Virtualmin
 settings_leftmenu_vm_webpages=Show <kbd>Edit Web Pages</kbd> link in Virtualmin
@@ -258,7 +258,7 @@ theme_fileformat_plain_text=Texto Sin Formato
 
 theme_xhred_titles_wm=Webmin
 theme_xhred_titles_um=Usermin
-theme_xhred_titles_dashboard=Dashboard
+theme_xhred_titles_dashboard=Tablero
 theme_xhred_titles_mail=Correo
 theme_xhred_titles_vm=Virtualmin
 theme_xhred_titles_cm=Cloudmin
@@ -283,7 +283,7 @@ theme_xhred_filemanager_cutting_successful=Cut to clipboard successful.
 theme_xhred_filemanager_pasting_successful=Paste from clipboard was successful.
 theme_xhred_filemanager_extracting_archive=Extrayendo archivo.
 theme_xhred_filemanager_bookmark_success=Carpeta <samp><em>%value</em></samp> fue añadida exitosamente a sus marcadores.
-theme_xhred_filemanager_searching=Searching for <em>`%value`</em> string.
+theme_xhred_filemanager_searching=Buscando por <em>`%value`</em>.
 theme_xhred_filemanager_search_founds=Found <samp>%value</samp> matches.
 theme_xhred_filemanager_search_found=Found <samp>1</samp> match.
 theme_xhred_filemanager_search_no_matches=No matches found.
@@ -298,12 +298,12 @@ theme_xhred_filemanager_empty_clipboard=Portapapeles esta vacío.
 
 theme_xhred_filemanager_successful_extraction=Extracción exitosa.
 theme_xhred_filemanager_successful_deletion=Eliminación exitosa.
-theme_xhred_filemanager_successful_permissions=Permissions have been changed successfully.
+theme_xhred_filemanager_successful_permissions=Permisos han sido cambiados existosamente.
 theme_xhred_filemanager_successful_ownership=Ownership has been changed successfully.
 theme_xhred_filemanager_successful_compression=Compresión ha finalizado exitosamente.
-theme_xhred_filemanager_successful_rename=Rename operation was successful.
-theme_xhred_filemanager_successful_folder_creation=Folder `<samp>%value</samp>` was created successfully.
-theme_xhred_filemanager_successful_file_creation=File `<samp>%value</samp>` was created successfully.
+theme_xhred_filemanager_successful_rename=Operación de renombrado fue exitosa.
+theme_xhred_filemanager_successful_folder_creation=Carpeta `<samp>%value</samp>` fue creada exitosamente.
+theme_xhred_filemanager_successful_file_creation=Archivo `<samp>%value</samp>` fue creado exitosamente.
 
 theme_xhred_notifications_packages_updates=Paquetes de Actualización
 theme_xhred_notifications_theme_update=Actualizacion de Tema
@@ -342,8 +342,8 @@ settings_saturate_level_content_description=Default/current values <code>1</code
 settings_hue_level_content=Hue-rotate filter
 settings_hue_level_content_description=Default/current values <code>0</code>°/<code data-name="settings_hue_level_content">0</code>°
 
-settings_cm_view_palette=Viewer color palette
-settings_cm_editor_palette=Editor color palette
+settings_cm_view_palette=Ver paleta de colores
+settings_cm_editor_palette=Editar paleta de colores
 
 theme_xhred_filemanager_context_select_all=Seleccionar Todo
 theme_xhred_filemanager_context_select_invert=Invertir Selección
@@ -397,7 +397,7 @@ theme_xhred_filemanager_context_calculate_selected_size=Calcular tamaño selecci
 theme_xhred_filemanager_selected_entries=Seleccionar: %value entradas
 theme_xhred_filemanager_manual_path=Enter path manually
 
-theme_xhred_datatable_semptytable=No data available in table
+theme_xhred_datatable_semptytable=No hay datos disponibles en la tabla
 theme_xhred_datatable_sinfo=Showing _START_ to _END_ of _TOTAL_ entries
 theme_xhred_datatable_sinfoempty=Mostrando 0 a 0 de 0 entradas
 theme_xhred_datatable_slengthmenu=Mostrar _MENU_ entradas
